@@ -1,23 +1,35 @@
-import Head from 'next/head'
-import Header from '@components/Header'
-import Footer from '@components/Footer'
+import Head from 'next/head';
+import Header from '@components/Header';
+import Footer from '@components/Footer';
+import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div className="container">
+    <div className='container'>
       <Head>
-        <title>Next.js Starter!</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Stuff for my RaspberryPi setup!</title>
+        <link rel='icon' href='/favicon.ico' />
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
+        <Header title='RPi' />
+        <p>
+          <h2>PiHole stuff</h2>
+          <ul>
+            <Link href='/hole/adlists'>
+              <li>Aggregate Adlists</li>
+            </Link>
+            <Link href='/hole/whitelists'>
+              <li>Exact Whitelists</li>
+            </Link>
+            <Link href='/hole/regex_bl'>
+              <li>REGEX Blacklists</li>
+            </Link>
+          </ul>
         </p>
       </main>
 
       <Footer />
     </div>
-  )
+  );
 }
