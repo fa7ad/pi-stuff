@@ -20,10 +20,13 @@ export default function Home() {
               <li>Aggregate Adlists</li>
             </Link>
             <Link href='/hole/whitelists'>
-              <li>Exact Whitelists</li>
+              <li>Exact Whitelist</li>
             </Link>
             <Link href='/hole/regex_bl'>
-              <li>REGEX Blacklists</li>
+              <li>REGEX Blacklist</li>
+            </Link>
+            <Link href='/hole/regex_wl'>
+              <li>REGEX Whitelist</li>
             </Link>
           </ul>
         </p>
