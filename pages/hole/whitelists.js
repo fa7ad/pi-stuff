@@ -69,7 +69,11 @@ pricelist.skype.com
 apps.skype.com
 m.hotmail.com
 sa.symcb.com
-s{1..5}.symcb.com
+s1.symcb.com
+s2.symcb.com
+s3.symcb.com
+s4.symcb.com
+s5.symcb.com
 officeclient.microsoft.com
 dev.virtualearth.net
 ecn.dev.virtualearth.net
